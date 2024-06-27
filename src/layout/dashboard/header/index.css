@@ -1,0 +1,10 @@
+.headerInner{
+    display: flex;
+    justify-content: end;
+    padding: 20px 0px 0 0;
+    background: #F4F5FA;
+}
+.userAvatar{
+    height: 45px !important;
+    width: 45px !important;
+}

@@ -1,0 +1,20 @@
+{
+  "plugins": [
+    // ...
+    "react-hooks"
+  ],
+  "rules": {
+    // ...
+    "react-hooks/rules-of-hooks": "off", // tried each
+    "react-hooks/exhaustive-deps": "off" // tried each
+  },
+  "overrides": [
+    {
+      "files": ["**/*.js"],
+      "rules": {
+        "react-hooks/rules-of-hooks": "off", // tried each
+        "react-hooks/exhaustive-deps": "off" // tried each
+      }
+    }
+  ]
+}

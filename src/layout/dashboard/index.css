@@ -1,0 +1,75 @@
+.mainOuter {
+  min-height: 100%;
+  margin: auto;
+  min-width: 1024px;
+  display: grid;
+  grid-template-columns: 350px 1fr;
+  grid-template-rows: 1fr auto;
+  grid-template-areas:
+    "sideNav header"
+    "sideNav main"
+    "sideNav footer";
+}
+.mainInner {
+  padding-bottom: 90px;
+  padding-left: 10px;
+}
+
+.header {
+  grid-area: header;
+  height: 85px;
+  position: fixed;
+  top: 0;
+  width: calc(100% - 350px);
+  right: 0px;
+  padding-right: 50px;
+  z-index: 9;
+  background: #f4f5fa;
+}
+.aside {
+  grid-area: sideNav;
+  height: 100vh;
+  position: fixed;
+  width: 350px;
+  left: 0;
+  z-index: 100000;
+  transition: 300ms;
+   
+}
+.main {
+  grid-area: main;
+  height: calc(100vh - 150px) !important;
+  min-height: calc(100vh - 150px) !important;
+  padding: 30px 50px 0 0;
+  margin-top: 75px;
+  position: relative;
+}
+.footer {
+  grid-area: footer;
+  height: 65px;
+  padding: 5px 50px 0 0;
+  position: fixed;
+  bottom: 0;
+  width: calc(100% - 350px);
+  right: 0px;
+  z-index: 9;
+  background: #eff0f5;
+}
+.maskImg{
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+.tree1Img{
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
+}
+.tree2Img{
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;
+}

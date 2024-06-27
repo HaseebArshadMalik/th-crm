@@ -1,0 +1,87 @@
+.asideInner {
+  padding: 30px 35px 30px 0;
+  margin-right: 35px;
+  padding-right: 0px;
+  background: #f4f5fa;
+  height: 100%;
+  box-shadow: 0px 0px 32px #eee;
+}
+
+.mainNav,
+.mainNav ul {
+  padding: 15px 0 0;
+  list-style: none;
+}
+.mainNav{
+  padding-left: 30px;
+}
+.mainNav ul {
+  margin-top: -10px;
+}
+
+.mainNav ul svg {
+  margin-left: 25px;
+}
+
+.mainNav li a,
+.mainNav li span {
+  color: rgba(58, 53, 65, 0.87) !important;
+  font-size: 16px !important;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 10px 0;
+  margin-bottom: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+
+}
+
+.mainNav li span svg,
+.mainNav li a svg {
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.mainNav li a::before,
+.mainNav li span::before {
+  position: absolute;
+  z-index: -1;
+  height: 100%;
+  width: 290px;
+  content: "";
+  border-radius: 0 30px 30px 0;
+  left: -35px;
+}
+
+.mainNav li a.active {
+  color: #fff !important;
+  z-index: 1;
+  width:90%;
+}
+
+.mainNav li a.active::before,
+.mainNav li a.active:hover:before {
+  background: linear-gradient(98deg, #74b6f5, #094f93 94%);
+}
+
+.mainNav li a:hover:before {
+  background: rgba(58, 53, 65, 0.04);
+}
+
+.mainNav li span.disable::before,
+.mainNav li span.disable:hover:before {
+  background: rgba(58, 53, 65, 0.04);
+}
+
+.mainNav li span svg.arrowIcon {
+  position: absolute;
+  right: 45px;
+  rotate: 270deg;
+  transition: .5s rotate;
+}
+
+.mainNav li span.disable svg.arrowIcon {
+  rotate: 360deg;
+}

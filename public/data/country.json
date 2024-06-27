@@ -1,0 +1,114 @@
+{
+   "countries": [
+      {
+         "countryId": 203,
+         "isoCode2": "ES",
+         "isoCode3": "ESP",
+         "callingCode": 34,
+         "countryName": "Spain",
+         "isoNumericCode": 724,
+         "continent": "Europe",
+         "countryLogo": "https://operator-logo.dtone.com/logo-6124-1.png"
+      },
+      {
+         "countryId": 80,
+         "isoCode2": "DE",
+         "isoCode3": "DEU",
+         "callingCode": 49,
+         "countryName": "Germany",
+         "isoNumericCode": 276,
+         "continent": "Europe",
+         "countryLogo": "https://operator-logo.dtone.com/logo-6124-1.png"
+      },
+      {
+         "countryId": 229,
+         "isoCode2": "US",
+         "isoCode3": "USA",
+         "callingCode": 1,
+         "countryName": "United States",
+         "isoNumericCode": 840,
+         "continent": "North America",
+         "countryLogo": "https://operator-logo.dtone.com/logo-6124-1.png"
+      },
+      {
+         "countryId": 105,
+         "isoCode2": "IT",
+         "isoCode3": "ITA",
+         "callingCode": 39,
+         "countryName": "Italy",
+         "isoNumericCode": 380,
+         "continent": "Europe",
+         "countryLogo": "https://operator-logo.dtone.com/logo-6124-1.png"
+      },
+      {
+         "countryId": 228,
+         "isoCode2": "GB",
+         "isoCode3": "GBR",
+         "callingCode": 44,
+         "countryName": "United Kingdom",
+         "isoNumericCode": 826,
+         "continent": "Europe",
+         "countryLogo": "https://operator-logo.dtone.com/logo-6124-1.png"
+      },
+      {
+         "countryId": 149,
+         "isoCode2": "NL",
+         "isoCode3": "NLD",
+         "callingCode": 31,
+         "countryName": "Netherlands",
+         "isoNumericCode": 528,
+         "continent": "Europe",
+         "countryLogo": "https://operator-logo.dtone.com/logo-6124-1.png"
+      },
+      {
+         "countryId": 38,
+         "isoCode2": "CA",
+         "isoCode3": "CAN",
+         "callingCode": 1,
+         "countryName": "Canada",
+         "isoNumericCode": 124,
+         "continent": "North America",
+         "countryLogo": "https://operator-logo.dtone.com/logo-6124-1.png"
+      },
+      {
+         "countryId": 13,
+         "isoCode2": "AU",
+         "isoCode3": "AUS",
+         "callingCode": 61,
+         "countryName": "Australia",
+         "isoNumericCode": 36,
+         "continent": "Oceania",
+         "countryLogo": "https://operator-logo.dtone.com/logo-6124-1.png"
+      },
+      {
+         "countryId": 73,
+         "isoCode2": "FR",
+         "isoCode3": "FRA",
+         "callingCode": 33,
+         "countryName": "France",
+         "isoNumericCode": 250,
+         "continent": "Europe",
+         "countryLogo": "https://operator-logo.dtone.com/logo-6124-1.png"
+      },
+      {
+         "countryId": 137,
+         "isoCode2": "MX",
+         "isoCode3": "MEX",
+         "callingCode": 52,
+         "countryName": "Mexico",
+         "isoNumericCode": 484,
+         "continent": "North America",
+         "countryLogo": "https://operator-logo.dtone.com/logo-6124-1.png"
+      },
+      {
+         "countryId": 172,
+         "isoCode2": "PL",
+         "isoCode3": "POL",
+         "callingCode": 48,
+         "countryName": "Poland",
+         "isoNumericCode": 616,
+         "continent": "Europe",
+         "countryLogo": "https://operator-logo.dtone.com/logo-6124-1.png"
+      }
+   ]
+}

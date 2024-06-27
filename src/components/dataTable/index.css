@@ -1,0 +1,6 @@
+.tableOuter{
+    box-shadow: 0 0 0 !important;
+}
+.tableOuter th, .tableOuter td{
+    padding: 16px 30px !important;
+}

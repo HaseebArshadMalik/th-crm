@@ -1,0 +1,78 @@
+{
+    "subCategory": [
+      
+        {
+          "path": "/gift-cards/c/gaming",
+          "activePath": "/c/gaming",
+          "subCategoryDescription": "42 Gaming",
+          "subCategoryId": "GIFT_CARDS_CATEGORY",
+          "subCategoryName": "Gaming",
+          "subCategoryShortCode": "gaming",
+          "categoryAliasName": "gift_cards"
+        },
+        {
+          "path": "/gift-cards/c/shopping",
+          "activePath": "/c/shopping",
+          "subCategoryDescription": "",
+          "subCategoryId":" GIFT_CARDS_CATEGORY",
+          "subCategoryName": "Shopping",
+          "subCategoryShortCode": "shopping",
+          "categoryAliasName": "gift_cards"
+        },
+        {
+          "path": "/gift-cards/c/entertainment",
+          "activePath": "/c/entertainment",
+          "subCategoryDescription": "",
+          "subCategoryId": "GIFT_CARDS_CATEGORY",
+          "subCategoryName": "Entertainment",
+          "subCategoryShortCode": "entertainment",
+          "categoryAliasName": "gift_cards"
+        },
+        {
+          "path": "/gift-cards/c/restaurant",
+          "activePath": "/c/restaurant",
+          "subCategoryDescription": "",
+          "subCategoryId": "GIFT_CARDS_CATEGORY",
+          "subCategoryName": "Restaurant",
+          "subCategoryShortCode": "restaurant",
+          "categoryAliasName": "gift_cards"
+        },
+        {
+          "path": "/gift-cards/c/travel",
+          "activePath": "/c/travel",
+          "subCategoryDescription": "46 Travel and Transport",
+          "subCategoryId": "GIFT_CARDS_CATEGORY",
+          "subCategoryName": "Travel",
+          "subCategoryShortCode": "travel",
+          "categoryAliasName": "gift_cards"
+        },
+        {
+          "path": "/gift-cards/c/productivity",
+          "activePath": "/c/productivity",
+          "subCategoryDescription": "",
+          "subCategoryId":" GIFT_CARDS_CATEGORY",
+          "subCategoryName": "Productivity",
+          "subCategoryShortCode": "productivity",
+          "categoryAliasName": "gift_cards"
+        },
+        {
+          "path": "/gift-cards/c/prepaid",
+          "activePath": "/c/prepaid",
+          "subCategoryDescription": "",
+          "subCategoryId": "GIFT_CARDS_CATEGORY",
+          "subCategoryName": "Prepaid",
+          "subCategoryShortCode": "prepaid",
+          "categoryAliasName": "gift_cards"
+        },
+        {
+          "path": "/gift-cards/c/crypto",
+          "activePath": "/c/crypto",
+          "subCategoryDescription": "",
+          "subCategoryId": "GIFT_CARDS_CATEGORY",
+          "subCategoryName": "Crypto",
+          "subCategoryShortCode": "crypto",
+          "categoryAliasName": "gift_cards"
+        }
+      ]
+      
+}

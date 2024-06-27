@@ -1,0 +1,16 @@
+.maskImg{
+    bottom: 0;
+    z-Index: -1;
+    width: 100%;
+    position: fixed;
+}
+.tree1Img{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+}
+.tree2Img{
+    bottom: 0;
+    right: 0;
+    position: fixed;
+}

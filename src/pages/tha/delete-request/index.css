@@ -1,0 +1,23 @@
+.tableData {
+  font-weight: 400;
+  display: flex;
+  margin: 0px;
+  text-align: left;
+  font-size: 18px;
+  padding: 10px;
+  align-items: left;
+  justify-content: left;
+  border: 1px solid #e3e3e3;
+  height: calc(100% - 22px);
+
+}
+
+.tableHeader {
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #e3e3e3;
+  text-align: left;
+  padding: 10px;
+  margin: 0;
+  height: calc(100% - 22px);
+}

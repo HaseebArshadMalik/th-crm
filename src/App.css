@@ -1,0 +1,349 @@
+body {
+  background: #f4f5fa;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
+  font-weight: 400;
+}
+
+.formControl {
+  width: 100%;
+  margin-bottom: 15px !important;
+}
+
+.errorShow fieldset {
+  border-color: red;
+}
+
+.m0 {
+  margin: 0 !important;
+}
+
+.mb0 {
+  margin-bottom: 0 !important;
+}
+
+.mb5 {
+  margin-bottom: 5px !important;
+}
+
+.mb10 {
+  margin-bottom: 10px !important;
+}
+
+.formControl input {
+  height: 50px;
+  padding: 0 15px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.checkBox span {
+  font-size: 14px !important;
+  color: rgba(58, 53, 65, 0.68);
+}
+
+a {
+  color: #1b97d5 !important;
+  text-decoration: none !important;
+}
+
+.dButton {
+  width: 100%;
+  margin: 12px 0 20px 0 !important;
+  height: 50px;
+  background: #094f93 !important;
+  box-shadow: 0 0 0 !important;
+  letter-spacing: 2px !important;
+  font-size: 16px !important;
+}
+
+.dButton2 {
+  width: 220px;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+}
+
+.dbuttonSec {
+  background: #dee228 !important;
+  color: #000 !important;
+}
+
+.dButton:hover {
+  background: #dee228 !important;
+  color: #000 !important;
+}
+
+.dbuttonSec:hover {
+  background: #094f93 !important;
+  color: #fff !important;
+}
+
+.boxShadow {
+  box-shadow: 0px 2px 10px 0px rgba(58, 53, 65, 0.1);
+  border-radius: 6px;
+  background: #fff;
+  margin-bottom: 30px;
+  transition: transform 0.2s;
+}
+
+.boxInner {
+  padding: 20px 30px;
+}
+
+.box {
+  transition: transform 0.3s;
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.sectionTitle {
+  margin-top: 0 !important;
+  font-weight: 600 !important;
+  border-bottom: 1px solid rgba(58, 53, 65, 0.12);
+  padding: 15px 30px;
+  margin-bottom: 5px !important;
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.error {
+  color: red;
+}
+
+.btnGroup {
+  display: flex;
+  gap: 15px;
+}
+
+.MuiButtonBase-root.MuiButton-root {
+  width: 100%;
+}
+
+h3 {
+  padding: 10px 0 20px 0;
+  margin: 0;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.selectControl {
+  height: 50px !important;
+  margin: 0px !important;
+}
+
+.MuiModal-root.MuiDialog-root {
+  z-index: 100000;
+}
+
+.MuiPaper-root.MuiPaper-elevation.MuiPaper-rounded {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+}
+
+.Toastify__toast {
+  z-index: 10000000;
+}
+
+.MuiButtonBase-root.MuiButton-root {
+  font-family: Inter, sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol" !important;
+  font-weight: 400;
+}
+
+.diable-bg {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 1000000000;
+  left: 0;
+  top: 0;
+  background-color: #000;
+  opacity: 0;
+}
+
+.MuiTypography-root.MuiDialogContentText-root {
+  font-weight: 400;
+  color: #111;
+}
+
+.Mui-disabled.MuiButton-containedPrimary {
+  background-color: #ccc !important;
+  color: #666 !important;
+}
+
+.ddl-menu {
+  border: 1px solid #ccc;
+  width: 100%;
+  padding: 12px 8px;
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.selection-container .MuiFormLabel-root {
+  color: #000 !important;
+  margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.selection-container strong {
+  font-weight: 600;
+}
+
+.selection-container .MuiFormControl-root {
+  width: 100%;
+}
+
+.selection-container .grid {
+  display: flex;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+  padding: 2px 10px;
+  justify-content: space-between;
+  ;
+  align-items: center;
+  width: 100%;
+}
+
+.customTable {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  width: 100%;
+  text-align: left;
+}
+
+.customTable th {
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-weight: 600;
+}
+
+.customTable td {
+  border: 1px solid #ccc;
+  padding: 10px
+}
+
+.outerDialog .MuiPaper-root {
+  max-width: 57% !important;
+}
+
+.boxShadow.editor {
+
+  border: 1px solid rgb(204, 204, 204);
+
+
+}
+
+.operator-preview .MuiPaper-root {
+  max-width: 700px !important;
+  padding: 10px 20px !important;
+}
+
+.dButton.end {
+  margin: 6px 15px 8px 0 !important;
+  width: 140px;
+  height: 40px
+}
+
+.editorScrollable .DraftEditor-editorContainer {
+  height: 300px !important;
+  padding-left: 5px;
+  width: calc(100% - 34px) !important;
+}
+
+.Toastify__toast-container {
+  z-index: 111111111 !important;
+}
+
+.rdw-embedded-modal,
+.rdw-emoji-modal,
+.rdw-link-modal,
+.rdw-image-modal {
+  left: auto !important;
+  right: 0;
+}
+
+.faq-list-container {
+  margin-top: 20px;
+  width: 100%;
+  padding-left: 16px;
+}
+
+.faq-list {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  display: contents;
+  width: 100%;
+}
+
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.edit-button {
+  box-shadow: 0 0 0 !important;
+  letter-spacing: 2px !important;
+  font-size: 25px !important;
+  color: #fff !important;
+  fill:#000 !important
+
+}
+
+.edit-button:hover {
+  background: #dee228 !important;
+  color: #000 !important;
+  cursor: pointer;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.circular-loader{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50%;
+  color: #999;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.MuiPopover-root{
+  z-index: 100000!important;
+}
+.loader{
+  position: fixed;
+  width: calc(100% - 350px);
+  left: 350px;
+  right: 0;
+  top: 0;
+  z-index: 10000;
+  background: rgba(255,255,255,0.5);
+}
+.MuiPickersPopper-root{
+  z-index: 100000!important;
+}
+.Redeem{
+  margin-right: 10px;
+  color: white;
+  background: orange;
+  box-shadow: 0 0 0 2px;
+  padding: 2px 8px;
+  border-radius: 7px;
+}

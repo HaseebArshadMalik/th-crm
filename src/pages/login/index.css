@@ -1,0 +1,46 @@
+.content-center {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.formOuter{
+    box-shadow: 0px 2px 10px 0px rgba(58, 53, 65, 0.1) !important;
+    width: calc(28rem - 20px);
+    padding: 20px 10px 5px;
+    border-radius: 8px !important;
+}
+.formOuter h1{
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+    text-align: center;
+}
+.formOuter p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 6px !important;
+    margin-bottom: 20px;
+    text-align: center;
+    color: rgba(58, 53, 65, 0.68);
+}
+.d-flex{
+   align-items: center;
+   justify-content: space-between;
+}
+a{
+    font-size: 14px !important;
+}
+
+.exLink p{
+    margin-bottom: 0 !important;
+}
+
+.backLink a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.backLink a svg{
+    font-size: 18px;
+}
